@@ -1,121 +1,117 @@
 
-header {
-        font-family: Roboto, sans-serif;
-        
-        width: 1177px;
-        height: 275.52px;
-        left: 335px;
-        position: absolute;
-    
-        background: #373867;
- }
+*   {
+      font-family: Roboto, sans-serif;
+      box-sizing: border-box;  
+    }
 
- h1 {
-    font-family: Roboto, sans-serif;
-    font-style: normal;
-    font-size: 128px;
-    color: #FFFF;
-    line-height: 150px;
+footer  {
+          position: absolute;    
 
-    position: absolute;
-    left: 64px;
-  }
+          width: 100%;
+          height: 180px;
 
-h2 {
-    font-family: Roboto, sans-serif;
-    font-style: normal;
-    font-size: 16px;
-    color: #000000;
-
-    position: absolute;
-    top: 222px;
-    bottom: 34.52px;
-    right: 427px;
-   
-}
-
-body {
-      font: normal 32px Inter, sans-serif;
-      line-height: 52px;
-      position: absolute;
-}
-
-.history {
-          background-color: #D9D9D9 ;
-          font-family: Roboto, sans-serif;
-          width: 920px;
-          height: 821px;
-          top: 2452px;
-          left: 466px;
-          border-radius: 10px;
-          margin: auto;
-          padding: 68px 45px 0px 45px;
+          background-color: #373867;
         }
 
-.history h3 {
-              font-family: Roboto;
-              font-style: normal;
-              font-weight: 700;
-              font-size: 48px;
-              line-height: 56px;
+h1  {
+
+      font-family: Roboto, sans-serif;
+      font-size: 128px;
+      font-weight: 700;
+
+      color: #FFF;
+    }
+
+header  {
+          position: relative;
+
+          float: right;
+          width: 80%;
+          height: 275.52px;
+
+          background-color: #373867;
+        }
+
+#content  {
+            margin-left: 20%;
+          }
+
+.main-1, .main-2  {
+                    background-color: #D9D9D9;
+                  }
+
+.main-3, .main-4, .main-5 {
+                            background-color: #FFF;
+                          }
+
+label {
+        display: block;
+      }
+
+.history  {
+            background-color: #FFF;
+          }
+
+#sidebar  {
+            position: fixed;
+
+            width: 20%;
+            height: 100%;
+
+            background-color: #707070;
+          }     
+
+#sidebar .contact {
+                    position: inherit;
+                    text-align: center;
+                    bottom: 70px;
+                  }
+
+#search  {
+            text-align: center;
+            border-radius: 4px;
+          }
+
+
+.copyright  {
+              bottom: 45px;
+
+              font-family: Inter, sans-serif;
+              font-size: 15px;
               text-align: center;
-              color: #373867;
-}
+            }
 
-.form {
-        background-color: #FFF;
-        font-family: Roboto, sans-serif;
-        width: 535px;
-        height: 548px;
-        top: 3352px;
-        left: 658px;
-        position: absolute;
-        border-style: solid;
-        border-color: #000000;
-}
+.history  {
+            width: 920px;
+            height: 821px;
+            margin: auto;
+            padding: 68px 45px 0px 45px;
 
-.form h3 { 
+            background-color: #D9D9D9;
+            border-radius: 10px;
+          }
 
-              font-family: Roboto, sans-serif;
-              font-style: normal;
-              font-size: 30px;
-              font-weight: 700;
-              line-height: 35px;
+.hr {
+            width: 420px;
+            height: 315px;
+            padding: 40px 20px;
 
-}
+            font-size: 24px;
+            align-content: right;
+            letter-spacing: 0,125em;
 
-.form .form-group {
-              font-size: 16px;
-              padding-bottom: 22px;
-}
+            color: #373867;
 
-.form label, .form input, .form textarea {
-              display: block;
-}
+            background-color: rgba(170, 206, 155, 0.82);
+            border-radius: 20px 0px 0px 20px;
+          }
 
 
-.form input {
-            width: 344px;
-            height: 44px;
-            top: 3450px;
-            left: 658px;
-            border-radius: 8px;
-}
+.landing-img  {
+                width: 879px;
+                height: 587px;
+                left: 335px;
+                top: 356px;
 
-.form input[type="submit"]{
-  background-color: #AACE9B;
-  color: #FFF;
-}
-
-footer {
-        font-family: Roboto, sans-serif;
-        
-        width: 1515px;
-        height: 180px;
-        top: 4286px;
-
-        box-sizing: border-box;
-    
-        background: #373867;
-        position: absolute;
-}
+                border-radius: 0px 77px 77px 0px;
+              }
