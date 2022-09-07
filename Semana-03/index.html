@@ -48,31 +48,39 @@
 
             <aside id="sidebar" >
 
-                <section id="search">
-                    <form action="#">
-                        <input type="text" placeholder="Search...">
-                        <button type="submit"></button>
-                    </form>    
+                <section>
+                    <section class="search">
+                        <form action="#">
+                            <input type="text" placeholder="Search...">
+                            <button class="search-icon" type="submit"><img class="search-img" src="assets/SearchIcon.png" alt="Search-icon"></button>
+                           
+                        </form>    
+                    </section>
                 </section>
                 <section class="nav-links">
                     <ul>
                         <li>
-                            <a href="https://www.Trackgenix.com/Home">Homepage</a>
+                            <img src="assets/HomeIcon.png" class="nav-icons" alt="#">
+                            <a class="link" href="https://www.Trackgenix.com/Home">Homepage</a>
                         </li>
                         <li>
-                            <a href="https://www.Trackgenix,com/SignUp">Sign up</a>
+                            <img src="assets/PersonIcon.png" class="nav-icons" alt="#">
+                            <a class="link" href="https://www.Trackgenix,com/SignUp">Sign up</a>
                         </li> 
                         <li>
-                            <a href="https://www.Trackgenix.com/LogIn">Log In</a>
+                            <img src="assets/2PersonIcon.png" class="nav-icons" alt="#">
+                            <a class="link" href="https://www.Trackgenix.com/LogIn">Log In</a>
                         </li> 
                         <li>
-                            <a href="https://www.Trackgenix.com/Submenu">Submenu</a>
+                            <a class="link" href="https://www.Trackgenix.com/Submenu">Submenu</a>
                         </li>  
                     </ul>    
                 </section>
                 <section class="contact">
                     <p>Contact us</p>
-                    <a href="mailtto:sampletext@gmail.com?subject=Inquiry&body=Hello">sampletext@gmail.com</a>
+                    <img src="assets/MailIcon.png" class="nav-icons" alt="#">
+                    <p>sampletext@gmail.com</p>
+                    <img src="assets/BuildingIcon.png" class="nav-icons" alt="#">
                     <p> Av. 18 de Julio 5555, Montevideo, Uruguay</p>                    
                 </section>
                 
@@ -87,10 +95,15 @@
                             <p>progress easily</p>
                         </aside>
                         <img class="landing-img" src="assets/landing1.jpg" alt="Landing image">
-                        <aside>
-                            <p class="hr">Our HR management software will allow you to have a traceability of your employees,
-                                manage teams easily and take your leadership to the next level
-                            </p>
+                        <aside class="hr">
+                            <section class="hr-section">
+                                <p>Our HR management software
+                                    <p>will allow you to have a</p>
+                                    <p>traceability of your</p> 
+                                    <p>employees, manage teams</p>
+                                    <p>easily and take your</p>
+                                    <p>leadership to the next level.</p>                                       
+                            </section>
                         </aside>
                     </section>
                 </article>
@@ -112,24 +125,44 @@
                     </section>
     
                     <aside>
-                        <section class="box-1">
-                            <p>Progress tracker</p>
-                            <p>Decision making</p>
+                        <section class="circle-1">
+                            <p>Productivity</p>
+                            <p>enhancer</p>
                         </section>
-                        <section class="box-2">
-                            <p>Productivity enhancer</p>
-                            <p>Leadership and team management</p>
+                        <section class="circle-2">
+                            <p>Progress</p>
+                            <p>tracker</p>
                         </section>
-                    </aside>
+                        <section class="circle-3">
+                            <p>Leadership</p>
+                            <p>and team</p>
+                            <p>management</p>
+                        </section>
+                        <section class="circle-4">
+                            <p>Decision</p>
+                            <p>making</p>
+                        </section>
+                   </aside>
     
                     <section class="square">
-                        <p>Hour log</p>
-                        <p>Reports</p>
-                        <p>Resource management</p>
-                        <p>Multiple roles</p>
+                        <section>
+                            <p class="square1">Hour log</p>
+                            <img class="square-img" src="assets/hourlog.png" alt="#">
+                        </section>
+                        <section>
+                            <p class="square2">Reports</p>
+                            <img src="assets/reports.png" alt="">
+                        </section>
+                        <section>
+                            <p class="square3">Resource management</p>
+                            <img src="assets/resourcem.png" alt="">
+                        </section>
+                        <section>
+                            <p class="square4">Multiple roles</p>  
+                            <img src="assets/multipleroles.png" alt="#">  
+                        </section>
                     </section>
                         
-                            </p>
                 </article>
     
     
@@ -151,22 +184,32 @@
                 </article>
             
                 <article class="main-4">
-                    <section class="form1">
+                    <section class="form">
                         <h3>Request system information</h3>
-                        <form class="form">
-                            <label>Name</label>
-                            <input type="text" placeholder="Enter your name">
-                            <label>Email</label>
-                            <input type="email" placeholder="Enter your email">    
-                            <label>Contact area</label>
-                            <input type="radio" name="req-syst-info" id="human-resources" value="Human Resources">
-                            <label for="human resources">Human Resources</label>
-                            <input type="radio" name="req_syst_info" id="systems" value="Systems">                            <label for="systems">Systems</label>
-                            <input type="radio" name="req_syst_info" id="marketing" value="marketing">
-                            <label for="marketing">Marketing</label>
-                            <label for="message">Message</label>
-                            <textarea name="message" placeholder="Enter your message"></textarea>
-                            <input type="submit" value="Request information">
+                        <form>
+                            <section class="form-group">
+                                <label>Name</label>
+                                <input type="text" placeholder="Enter your name">  
+                            </section>
+                            <section class="form-group">
+                                <label>Email</label>
+                                <input type="email" placeholder="Enter your email">        
+                            </section>
+                            <section class="form-group">
+                                <label>Contact area</label>
+                                <input type="radio" name="req-syst-info" id="human-resources" value="Human Resources">
+                                <label for="human resources">Human Resources</label>
+                                <input type="radio" name="req_syst_info" id="systems" value="Systems">                            <label for="systems">Systems</label>
+                                <input type="radio" name="req_syst_info" id="marketing" value="Marketing">
+                                <label for="marketing">Marketing</label>    
+                            </section>
+                            <section class="form-group">
+                                <label for="message">Message</label>
+                                <textarea name="message" placeholder="Enter your message"></textarea>    
+                            </section>
+                            <section class="form-group">
+                                <input type="submit" value="Request information">
+                            </section>
                         </form>
                     </section>
                 </article>    
