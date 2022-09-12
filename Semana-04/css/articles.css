@@ -1,0 +1,87 @@
+.landing-article {
+    display: none;
+}
+
+.content {
+    background-color: #373867;
+}
+
+.track {
+    font-size: 16px;
+    font-weight: 700;
+    color: #AACE9B;
+}
+
+.squares {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #373867;
+}
+
+.square p {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.square {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #AACE9B;
+    border-radius: 10px;
+    width: 125px;
+    height: 125px;
+    margin: 4%;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.hr {
+    font-weight: 400;
+    font-size: 20px;  
+    color: #373867;  
+    background-color: rgba(170, 206, 155, 0.82);
+    border-radius: 58px;
+    width: 89.7%;
+    height: 5.65%;
+}
+
+.why-trackgenix {
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    color: #FFF;
+    background-color: #373867;
+}
+
+.circles {
+    display: flex;
+    flex-direction: column;
+}
+
+.circle-1 {
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+
+    background-color: #373867;
+    border: 5px solid #707070;
+    border-radius: 50%;
+
+    font-size: 20px;
+    text-align: center;
+    text-align: center;
+
+}
+
+.history {
+    background-color: rgba(217, 217, 217, 0.28);
+    border-radius: 10px;
+}
