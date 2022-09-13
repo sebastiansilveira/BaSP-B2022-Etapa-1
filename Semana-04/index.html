@@ -3,7 +3,6 @@
     
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width">
         <meta name="keywords" content="timesheet, manage, track">
         <meta name="description" content="Timesheet tracking for business">
         <meta name="author" content="GigaTech Software Solutions">
@@ -12,7 +11,7 @@
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/header.css">
         <link rel="stylesheet" href="css/sidebar.css">
-        <link rel="stylesheet" href="css/articles.css">
+        <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/footer.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
@@ -29,6 +28,8 @@
                 <img src="assets/Facebook.png" class="header-img" alt="Facebook"></a>
                 <a href="https://www.twitter.com/Trackgenix-by-GigaTech" target="_blank">
                 <img src="assets/Twitter.png" class="header-img" alt="Twitter"></a>
+            <div class="menu">
+                <img class="menu-img" src="assets/Menu.png" alt="Menu">
             </div>
             <img src="assets/Landing.jpg" class="landing-header" alt="Landing image">
             <div class="title">
@@ -79,7 +80,12 @@
                 
             <article class="content">
                 <aside class="track">
-                    <p>Keep track of your employees progress easily</p>
+                    <p>
+                        <fieldset>
+                            Keep track
+                        </fieldset> 
+                        of your employees progress easily
+                    </p>
                 </aside>
                 <img class="landing-article" src="assets/Landing.jpg" alt="Landing image">
                 <aside class="hr">
@@ -121,19 +127,19 @@
                 </div>
                         
                 <div class="squares">
-                    <div class="square">
+                    <div class="square-1">
                         <p>Hour log</p>
                         <img src="assets/HourLog.png" alt="Hour log">
                     </div>
-                    <div class="square">
+                    <div class="square-2">
                         <p>Reports</p>
                         <img src="assets/Reports.png" alt="Reports">
                     </div>
-                    <div class="square">
+                    <div class="square-3">
                         <p>Resource management</p>
                         <img src="assets/Resource.png" alt="Resource management">
                     </div>
-                    <div class="square">
+                    <div class="square-4">
                         <p>Multiple roles</p>
                         <img src="assets/MultipleRoles.png" alt="Multiple roles">  
                     </div>
@@ -170,11 +176,12 @@
                         </fieldset>
                         <fieldset class="form-group">
                             <label>Contact area</label>
-                            <input type="radio" name="req-syst-info" id="human-resources" value="Human Resources">
-                            <label for="human resources">Human Resources</label>
-                            <input type="radio" name="req_syst_info" id="systems" value="Systems">                            <label for="systems">Systems</label>
+                            <input type="radio" name="req-syst-info" id="human-resources" value="Human-Resources">
+                            <label class="change" for="human resources">Human Resources</label>
+                            <input type="radio" name="req_syst_info" id="systems" value="Systems"> 
+                            <label class="change" for="systems">Systems</label>
                             <input type="radio" name="req_syst_info" id="marketing" value="Marketing">
-                            <label for="marketing">Marketing</label>    
+                            <label class="change" for="marketing">Marketing</label>    
                         </fieldset>
                         <fieldset class="form-group">
                             <label for="message">Message</label>
@@ -187,7 +194,7 @@
             </article>    
                 
             <article class="columns">
-                <section class="row">
+                <div class="row">
                     <p>Our product</p>
                     <ol>
                         <li>Features</li>
@@ -195,9 +202,9 @@
                         <li>Integrations</li>
                         <li>Extras</li>
                     </ol>    
-                </section>
+                </div>
                         
-                <section class="row">
+                <div class="row">
                     <p>Company</p>
                     <ol>
                         <li>About us</li>
@@ -205,9 +212,9 @@
                         <li>Resources</li>
                         <li>Blog</li>
                     </ol>
-                </section>
+                </div>
     
-                <section class="row">
+                <div class="row">
                     <p>Support</p>
                     <ol>
                         <li>Help</li>
@@ -215,7 +222,21 @@
                         <li>API</li>
                         <li>Contact</li>
                     </ol>
-                </section>
+                </div>
+            </article>
+
+            <article>
+                <div class="contact">
+                    <h3>Contact us</h3>
+                    <fieldset>
+                        <img src="assets/Email.png" class="nav-icons" alt="Email">
+                        <p>sampletext@gmail.com</p>    
+                    </fieldset>
+                    <fieldset>
+                        <img src="assets/Building.png" class="nav-icons" alt="Building">
+                        <p> Av. 18 de Julio 5555, Montevideo, Uruguay</p>                        
+                    </fieldset>
+                </div>
             </article>
     
 
