@@ -7,7 +7,8 @@ header {
 h1 {
     display: flex;
     justify-content: center;
-
+    
+    font-family: Roboto, sans-serif;
     font-weight: 700;
     font-size: 64px;
 
@@ -26,9 +27,11 @@ h2 {
     color: #000;
 }
 
-.header-img {
-    display: none;
+.social-media-header {
+    display: none
+}
 
+.header-img {
     width: 31px;
     height: 31px;
 }
@@ -54,3 +57,43 @@ h2 {
 
     filter: invert();
 }
+
+@media screen and (min-width: 480px) {
+    .landing-header {
+        display: none
+    }
+    
+    .menu {
+        justify-content: left;
+        display: inline;
+    }
+    
+    .menu-img {
+        margin-left: 20px;
+    }
+
+    
+    h1 {
+    justify-content: left;
+    margin-left: 30px;
+    font-size: 90px;
+    }
+
+    h2 {
+    justify-content: right;
+    padding: 0 2.8% 0 0;
+    font-size: 16px;
+    background-color: #FFF;
+    }
+
+    .social-media-header {
+    display: flex;
+    justify-content: right;
+    justify-content: space-evenly;
+    margin-right: 3%;
+    margin-left: 75%;
+
+
+    }
+        
+    }

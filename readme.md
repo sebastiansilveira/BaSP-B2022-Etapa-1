@@ -16,3 +16,17 @@ In case of any IT related issues or inquiries please contact us at sampletext@gm
 
 ## Author: 
 GigaTech Software Solutions SA.
+
+## Progress:
+
+#### Week 01:
+We created the interface design of our web application using Figma.
+
+#### Week 02: 
+We created the index file for the landing page of our web application using the markup language HTML and Visual Studio Code as our source-code editor taking into consideration the previous design created on Figma.
+
+#### Week 03: 
+We added CSS to our HTML file in order to give the application different styles that are lacking in a plain HTML file.
+
+#### Week 04:
+We switched our CSS approach using Flexbox instead of positions to give our web application the designed we required.

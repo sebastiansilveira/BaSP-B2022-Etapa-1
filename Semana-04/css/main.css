@@ -52,6 +52,7 @@
 
 
     font-family: Inter, sans-serif;
+    font-size: 14px;
     font-weight: 400;
 
 
@@ -78,7 +79,7 @@
 .squares {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
 
     background-color: #373867;
     padding: 10px 45px 10px 45px;
@@ -91,9 +92,9 @@
     justify-content: center;
     text-align: center;
     
-    width: 130px;
-    height: 130px;
-    margin: 4% 7%;
+    width: 125px;
+    height: 125px;
+    margin: 4% 4%;
     border-radius: 10px;
 
     font-size: 16px;
@@ -107,32 +108,22 @@
 }
 
 .circles {
-    display: flex;
+    display: none;
     flex-direction: column;
+    width: 25%;
+    margin-left: 75%;
 }
 
 .circle-1, .circle-2, .circle-3, .circle-4 {
     display: none;
-
-    width: 150px;
-    height: 150px;
-    padding: 10px;
-
-    background-color: #373867;
-    border: 5px solid #707070;
-    border-radius: 50%;
-
-    font-size: 20px;
-    align-items: center;
-    text-align: center;
 }
 
 .history {
-    text-align: justify;
     display: flex;
     flex-direction: column;    
-    padding: 0px 30px 20px 30px;
     text-align: justify;
+    
+    margin-bottom: 20px;
 
     border-radius: 10px;
     
@@ -142,11 +133,17 @@
     background-color: rgba(217, 217, 217, 0.28);
 }
 
+.history p {
+    padding: 0px 40px 20px 40px;
+    margin: 0px 5px;
+}
+
 .history h3 {
     align-items: center;
     text-align: center;
 
     margin: 30px 0 30px 0px;
+    padding: 0px;
 
     font-weight: bold;
     font-size: 30px;
@@ -206,6 +203,10 @@
 
 }
 
+.history-2 {
+    display: none;
+}
+
 .row p {
     font-weight: bold;
 }
@@ -244,5 +245,101 @@
     display: flex;
     align-items: center;
     margin: 20px 0px;
+
+}
+
+@media screen and (min-width: 480px) {
+.landing-article {
+    display: flex;
+    width: 78%;
+    height: auto;
+    border-radius: 0px 77px 77px 0px;
+}
+
+.hr {
+    width: 60%;
+    height: auto;
+    display: flex;
+    justify-content: right;
+    padding: 15px 20px;
+
+    text-align: right;
+
+    font-size: 24px;
+}
+
+.why-trackgenix {
+    font-size: 32px;
+    text-align: left;
+    width: 75%;
+
+}
+
+.why-trackgenix h3 {
+    font-size: 48px;
+    color: #AACE9B;
+    text-align: left;
+}
+
+.uppercase {
+    text-align: right;
+}
+
+.squares {
+    background-color: #FFF;
+    padding: 10px;
+}
+
+.square-1, .square-2, .square-3, .square-4 {
+    width: 190px;
+    height: 190px;
+}
+
+.history {
+    display: none;
+}
+
+.history-2 {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 50px 20px 50px;
+    margin: 5px 5%;
+    text-align: justify;
+
+    border-radius: 10px;
+
+    font-weight: 400;
+    font-size: 14px;
+
+    background-color: rgba(217, 217, 217, 0.28);
+}
+
+.history-2 h3 {
+    align-items: center;
+    text-align: center;
+    
+    font-weight: bold;
+    font-size: 30px;
+    padding-bottom: 20px;
+} 
+
+.circle-1, .circle-2, .circle-3, .circle-4 {
+    display: inline-flex;
+    width: 170px;
+    height: 170px;
+
+    background-color: #373867;
+    border: 10px solid #707070;
+    border-radius: 50%;
+
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.why-trackgenix .circles {
+    display: inline-flex;
+    flex-direction: row;
+}
 
 }
