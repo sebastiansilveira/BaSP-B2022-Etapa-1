@@ -29,4 +29,4 @@ We created the index file for the landing page of our web application using the 
 We added CSS to our HTML file in order to give the application different styles that are lacking in a plain HTML file.
 
 #### Week 04:
-We switched our CSS approach using Flexbox instead of positions to give our web application the designed we required.
+We switched our CSS approach using Flexbox instead of positions to give our web application the designed we required. We also applied a responsive design in order for our website to accommodate its elements depending on the device that is being used; mobile, iPad or computer.

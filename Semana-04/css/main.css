@@ -23,24 +23,17 @@
 
 .hr {
     display: flex;
-    align-items: center;
-    text-align: justify;
-    flex-direction: column;
-
-    width: 90%;
-    height: 194px;
-    margin: 0 auto;
-
-    font-weight: 400;
-    font-size: 20px;  
-   
-    
+    margin: 0 10% 0 10%;
+    justify-content: center;
+    padding: 3% 2%;
     border-radius: 58px;
-
-    padding: 40px 30px 20px 30px;
-
-    color: #373867;  
     background-color: rgba(170, 206, 155, 0.82);
+}
+
+.hr p {
+    padding: 5% 10%;
+    text-align: justify;
+    color: #373867;  
 }
 
 .why-trackgenix {
@@ -109,9 +102,6 @@
 
 .circles {
     display: none;
-    flex-direction: column;
-    width: 25%;
-    margin-left: 75%;
 }
 
 .circle-1, .circle-2, .circle-3, .circle-4 {
@@ -226,22 +216,22 @@
     justify-content: space-evenly;
 }
 
-.contact {
+.contact2 {
     margin: 60px 28px;
 }
 
-.contact h3 {
+.contact2 h3 {
     font-weight: bold;
     font-size: 30px;
     padding-left: 40px;
 }
 
-.contact p {
+.contact2 p {
     display: inline;
     margin-left: 10px;
 }
 
-.contact fieldset {
+.contact2 fieldset {
     display: flex;
     align-items: center;
     margin: 20px 0px;
@@ -249,6 +239,10 @@
 }
 
 @media screen and (min-width: 480px) {
+.track {
+    font-size: 40px;
+}
+
 .landing-article {
     display: flex;
     width: 78%;
@@ -271,7 +265,6 @@
 .why-trackgenix {
     font-size: 32px;
     text-align: left;
-    width: 75%;
 
 }
 
@@ -303,7 +296,7 @@
     display: flex;
     flex-direction: column;
     padding: 0px 50px 20px 50px;
-    margin: 5px 5%;
+    margin: 5% 15%;
     text-align: justify;
 
     border-radius: 10px;
@@ -323,10 +316,18 @@
     padding-bottom: 20px;
 } 
 
+.circles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-evenly;
+    background-color: #373867;
+}
+
 .circle-1, .circle-2, .circle-3, .circle-4 {
-    display: inline-flex;
-    width: 170px;
-    height: 170px;
+    display: flex;
+    width: 150px;
+    height: 150px;
 
     background-color: #373867;
     border: 10px solid #707070;
@@ -337,9 +338,26 @@
     text-align: center;
 }
 
-.why-trackgenix .circles {
-    display: inline-flex;
+.trackgenix-circles {
+    display: flex;
     flex-direction: row;
 }
 
+.contact2 {
+    margin-left: 30%;
+}
+
+.hr {
+ margin: 0 0 0 40%;  
+}
+
+}
+
+@media screen and (min-width: 1024px) {
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    background-color: #707070;
+    justify-content: left;
+}
 }

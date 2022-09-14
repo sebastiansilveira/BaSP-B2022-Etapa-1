@@ -1,3 +1,8 @@
+a {
+    text-decoration: none;
+    color: #FFF;
+}
+
 .sidebar {
     display: none;
 }
@@ -6,4 +11,18 @@
     width: 20px;
     height: 20px;
     filter: invert();
+}
+
+@media screen and (min-width: 1024px) {
+.nav-icons {
+    filter: none;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    background-color: #707070;
+    justify-content: left;
+        
+}
 }
