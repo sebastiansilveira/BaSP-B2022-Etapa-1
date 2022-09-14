@@ -22,7 +22,7 @@ a {
     display: flex;
     flex-direction: column;
     background-color: #707070;
-    justify-content: left;
+    height: 100%;
         
 }
 }

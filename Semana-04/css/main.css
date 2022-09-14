@@ -351,5 +351,64 @@
  margin: 0 0 0 40%;  
 }
 
+.square-4 {
+    order: 0;
 }
+
+}
+
+@media screen and (min-width: 1024px) {
+    .contact2 {
+        display: none;
+    } 
+
+    .content {
+        background-color: #D9D9D9 ;
+    }
+
+    .why-trackgenix h3 {
+        font-weight: 400;
+        color: #000;
+        text-align: center;
+    }
+
+    .why-trackgenix { 
+        color: #373867;
+        background-color: #D9D9D9;
+    }
+
+    .circles {
+        background-color: #D9D9D9;
+    }
+
+    .circle-1, .circle-3 {
+        margin-right: 20%;
+    }
+
+    .squares {
+        background-color: #D9D9D9;
+    }
+
+    .form {
+        margin: 5% 15%;
+    }
+
+    .squares {
+        flex-wrap: nowrap;
+    }
+
+    .history {
+        display: flex;
+        margin: 5% 10% 0 10%;
+
+    }
+
+    .history h3 {
+        color: #373867;
+    }
+
+    .history-2 {
+        display: none;
+    }
+} 
 
