@@ -353,11 +353,3 @@
 
 }
 
-@media screen and (min-width: 1024px) {
-.sidebar {
-    display: flex;
-    flex-direction: column;
-    background-color: #707070;
-    justify-content: left;
-}
-}
