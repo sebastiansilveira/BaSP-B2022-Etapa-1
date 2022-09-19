@@ -66,4 +66,3 @@ console.log('-Excercise 2.f');
 var places;
 
 places = 'madagascar uzbekistan';
-
