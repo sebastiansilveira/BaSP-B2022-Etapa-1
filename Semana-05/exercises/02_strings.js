@@ -63,6 +63,8 @@ console.log(fingerprint.indexOf(' '));
 
 console.log('-Excercise 2.f');
 
-var places;
+var places, placesUpper;
 
 places = 'madagascar uzbekistan';
+
+console.log(places.substring(0,1,10,11).toUpperCase());

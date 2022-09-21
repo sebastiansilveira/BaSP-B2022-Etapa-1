@@ -5,17 +5,17 @@ console.log('---EXERCISE 3: ARRAYS');
 
 console.log('-Excercise 3.a');
 
-var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", 
-"November", "December"];
+var months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 
+'November', 'December'];
 
-console.log(months [5] + ' ' + months [11]);
+console.log(months [4] + ' ' + months [10]);
 
 // b. Ordenar el array de meses alfabéticamente y mostrarlo por consola (utilizar sort).
 
 console.log('-Excercise 3.b');
 
-var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", 
-"November", "December"];
+var months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 
+'November', 'December'];
 
 console.log(months.sort());
 
@@ -23,8 +23,8 @@ console.log(months.sort());
 
 console.log('-Excercise 3.c');
 
-var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", 
-"November", "December"];
+var months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 
+'November', 'December'];
 
 months.unshift('Beggining');
 months.push('End');
@@ -35,8 +35,8 @@ console.log(months);
 
 console.log('-Excercise 3.d');
 
-var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", 
-"November", "December"];
+var months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 
+'November', 'December'];
 
 firstElement = months.shift();
 lastElement = months.pop();
@@ -47,8 +47,8 @@ console.log(months);
 
 console.log('-Excercise 3.e');
 
-var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", 
-"November", "December"];
+var months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 
+'November', 'December'];
 
 months = months.reverse();
 
@@ -59,8 +59,8 @@ console.log(months);
 
 console.log('-Excercise 3.f');
 
-var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", 
-"November", "December"];
+var months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 
+'November', 'December'];
 
 console.log(months.join('-'));
 
@@ -68,7 +68,7 @@ console.log(months.join('-'));
  
 console.log('-Excercise 3.g');
 
-var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", 
-"November", "December"];
+var months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 
+'November', 'December'];
 
 console.log(months.slice(4,11));

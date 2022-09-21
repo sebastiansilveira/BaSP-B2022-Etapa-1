@@ -3,7 +3,7 @@ console.log('---EXERCISE 4: IF ELSE');
 // a. Crear un número aleatorio entre 0 y 1 utilizando la función Math.random(), si el valor es mayor o igual que 0,5
 //    mostrar una alerta con el mensaje “Greater than 0,5” y sino un alerta con el mensaje “Lower than 0,5”.
 
-console.log ('-Excercise 4.a');
+console.log('-Excercise 4.a');
 
 var randomNumber;
 
@@ -49,6 +49,6 @@ else if ((age >= 31) && (age < 61)) {
 else if ((age >= 61) && (age < 76)) {
     console.log(age + ' ' + 'Elderly');
 }
-else if (age >= 76) {
+else{
     console.log(age + ' ' + 'Elder');
-}
+} 

@@ -14,15 +14,22 @@ a {
 }
 
 @media screen and (min-width: 1024px) {
-.nav-icons {
-    filter: none;
-}
 
-.sidebar {
-    display: flex;
-    flex-direction: column;
-    background-color: #707070;
-    height: 100%;
-        
-}
+    .nav-icons {
+        filter: none;
+    }
+
+    .sidebar {
+        display: flex;
+        flex-direction: column;
+        background-color: #707070;
+        height: 100%;
+        width: 20%;
+        padding: 2%;
+    }
+
+    .contact-p {
+        font-size: 30px;
+        font-weight: bold;
+    }
 }

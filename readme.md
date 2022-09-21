@@ -9,7 +9,10 @@ As a web application there is no installation needed. Just go to https://www.tra
 
 
 ## Usage:
-Within the system there are different roles with different functionalities. Trackgenix keeps the information of each employee on a separate database, thus automating the login of each user. By simple entering a work email and an initial password Trackgenix recognizes the type of role of the employees and automatically responds with the required rights and session screen for each of the roles; Employee, Project Manager, Admin, Super Admin.
+Within the system there are different roles with different functionalities. Trackgenix keeps the information of each
+employee on a separate database, thus automating the login of each user. By simple entering a work email and an initial
+password Trackgenix recognizes the type of role of the employees and automatically responds with the required rights 
+and session screen for each of the roles; Employee, Project Manager, Admin, Super Admin.
 
 ## Support:
 In case of any IT related issues or inquiries please contact us at sampletext@gmail.com
@@ -29,4 +32,11 @@ We created the index file for the landing page of our web application using the 
 We added CSS to our HTML file in order to give the application different styles that are lacking in a plain HTML file.
 
 #### Week 04:
-We switched our CSS approach using Flexbox instead of positions to give our web application the designed we required. We also applied a responsive design in order for our website to accommodate its elements depending on the device that is being used; mobile, iPad or computer.
+We switched our CSS approach using Flexbox instead of positions to give our web application the designed we required.
+We also applied a responsive design in order for our website to accommodate its elements depending on the device that
+is being used; mobile, iPad or computer.
+
+#### Week 05:
+Started working on a JavaScript file for our website applying variables, flows, loops, iterations and functions to name
+a few. The changes stated above can be found on the following Github page:
+https://sebastiansilveira.github.io/BaSP-B2022-Etapa-1/Semana-05/
