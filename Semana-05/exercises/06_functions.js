@@ -5,11 +5,28 @@ console.log('---EXERCISE 6: FUNCTIONS');
 
 console.log ('-Excercise 6.a');
 
+function addition(result) {
+    console.log(result);
+}
+
+var additionValue = 2+2;
+
+addition(additionValue);
+
 // b. A la función suma anterior, agregarle una validación para controlar si alguno de los parámetros no es un número;
 //    de no ser un número, mostrar una alerta aclarando que uno de los parámetros tiene error y retornar el valor NaN
 //    como resultado.
 
 console.log ('-Excercise 6.b');
+
+function addition(result) {
+    if (additionValue !typeof(Number))
+    console.log(result);
+}
+
+var additionValue = 2+2;
+
+addition(additionValue);
 
 // c. Aparte, crear una función validate Integer que reciba un número como parámetro y devuelva verdadero si es un
 //    número entero.
