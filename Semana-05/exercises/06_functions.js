@@ -20,7 +20,7 @@ addition(additionValue);
 console.log ('-Excercise 6.b');
 
 function addition(result) {
-    if (additionValue !typeof(Number))
+    if (additionValue ! typeof(Number));
     console.log(result);
 }
 
