@@ -8,37 +8,35 @@
     <meta name="description" content="Timesheet tracking for business">
     <meta name="author" content="GigaTech Software Solutions">
     <title>Trackgenix by GigaTech | Login</title>
-    <link rel="stylesheet" href="styles/reset.css">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="../styles/reset.css">
+    <link rel="stylesheet" href="../styles/login.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
 </head>
 <body>
     <header>
-
+        <h1>Trackgenix</h1>
     </header>
     <main>
-        <div class="login-title">
-            <h1>Trackgenix</h1>
+        <div class="container-img">
+            <img src="../assets/login/Login.png" alt="Timesheet-img" class="login-img">
         </div>
-        <div>
-            <img src="assets/login/Login.png" alt="Timesheet-img">
-        </div>
-        <div>
-            <form action="#">
-                <h2>Sign In</h2>
-                <p>New to Trackgenix? <span>Sign Up now</span></p>
-                <input type="email" placeholder="Email">
+        <div class="container-form">
+            <h2>Sign In</h2>
+            <p class="p-1">New to Trackgenix?<span> Sign Up now</span></p>
+            <form>
+                <input type="email" class="input-email" placeholder="Email">
                 <input type="password" placeholder="Password">
-                <button type="submit">Login</button>
-                <input type="checkbox" value="RememberMe" id="rememberMe"> <label for="rememberMe">Remember Me</label>
-                <p>Forgot Password?</p>
-                <button type="submit">Continue with Google</button>
-                <button type="submit">Continue with LinkedIn</button>
-                <p>New to Trackgenix? <span>Sign Up now</span></p>
+                <input type="checkbox" class="checkbox-input-1" value="RememberMe" id="rememberMe">
+                <label for="rememberMe" class="checkbox-label-1">Remember Me</label>
+                <p class="p-2">Forgot Password?</p>
+                <button type="submit" class="login-button">Login</button>
+                <button type="submit" class="google-login">Continue with Google</button>
+                <button type="submit" class="linkedin-login">Continue with LinkedIn</button>
             </form>
-            <div>
-                <p>or continue with</p>
-                <img src="" alt="Google">
-                <img src="" alt="LinkedIn">
+            <p class="p-3">or continue with</p>
+            <div class="login-icons">
+                <img class="google-icon" src="../assets/login/google-icon.png" alt="Google">
+                <img class="linkedin-icon" src="../assets/login/linkedin-icon.png" alt="LinkedIn">
             </div>
         </div>
     </main>
