@@ -3,6 +3,14 @@
     font-family: Poppins;
 }
 
+.red-border {
+   border-color: #F13A3D;
+}
+
+.green-border {
+    border-color: #06C552;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -46,6 +54,7 @@ input {
     background-color: #F6F6F6;
     border: none;
     border-radius: 15px;
+    
 }
 
 input[type=checkbox] {

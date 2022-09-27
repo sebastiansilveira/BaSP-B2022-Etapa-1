@@ -34,19 +34,19 @@ age = Math.floor(Math.random() * 100);
 if(age < 2) {
     console.log(age + ' ' + 'Baby');
 }
-else if ((age >= 2) && (age < 13)) {
+else if ( (age < 13)) {
     console.log(age + ' ' + 'Child');
 }
-else if ((age >= 13) && (age < 20)) {
+else if ( (age < 20)) {
     console.log(age + ' ' + 'Teenager');
 }
-else if ((age >= 20) && (age < 31)) {
+else if ( (age < 31)) {
     console.log(age + ' ' + 'Young Adult');
 }
-else if ((age >= 31) && (age < 61)) {
+else if ( (age < 61)) {
     console.log(age + ' ' + 'Adult');
 }
-else if ((age >= 61) && (age < 76)) {
+else if ( (age < 76)) {
     console.log(age + ' ' + 'Elderly');
 }
 else{
