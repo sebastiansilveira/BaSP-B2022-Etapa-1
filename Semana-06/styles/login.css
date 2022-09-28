@@ -3,6 +3,13 @@
     font-family: Poppins;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
 .red-border {
    border-color: #F13A3D;
 }
@@ -32,6 +39,7 @@ h1 {
 }
 
 h2 {
+    display: flex;
     align-self:flex-start;
     margin-left: 12%;
     padding: 22px 0px;
@@ -70,8 +78,16 @@ label {
     font-size: 12px;
 }
 
+s
+
 .login-img {
     display: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    
 }
 
 .p-1 {
@@ -90,9 +106,12 @@ label {
 }
 
 .login-button {
+    justify-content: center;
+    align-items: center;
     display: block;
     width: 294px;
     height: 60px;
+    margin-top: 15px;
     color: #FFF;
     background-color: #373867;
     border: none;
@@ -103,7 +122,22 @@ label {
     display: none;
 }
 
+.arrow {
+    display: inline;
+    width: 20px;
+    height: auto;
+}
+
+.container-home {
+    margin-top: 15px;
+}
+
 .p-3 {
+    display: inline;
+    font-size: 14px;
+}
+
+.p-4 {
     margin: 55px 0px 12px 0px;
     font-size: 14px;
     color: #B5B5B5;
@@ -123,9 +157,12 @@ label {
 
 .container-form {
     display: flex;
+    display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
+
 
 
 @media screen and (min-width: 480px) {
@@ -143,23 +180,25 @@ label {
     }
 
     h2 {
+        margin-left: 0;
         font-size: 24px;
     }
 
     input {
-        width: 486px ;
+        width: 286px ;
         height: 60px;
         padding-left: 26px;
     }
 
     .p-1 {
+        margin: 10px 0px;
         order: 1;
     }
 
     .container-form {
-        justify-content: flex-end;
         align-items: center;
-        margin: 74px 35px;
+        padding: 10px;
+        margin: 74px 35px 75px 0px;
         background-color: #FAFAFA;
         border-radius: 16px;
     }
@@ -170,8 +209,18 @@ label {
 
     .login-img {
         display: flex;
+        justify-content: flex-start;
         align-self: center;
-        width: 597px;
-        height: 374px;
+        width: 537px;
+        height: auto;
+    }
+
+    .login-button {
+        width: 286px;
+        height: 60px;
+    }
+
+    .container-form {
+        display: flex;
     }
 }

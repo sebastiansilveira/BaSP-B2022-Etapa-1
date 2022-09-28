@@ -40,3 +40,6 @@ is being used; mobile, iPad or computer.
 Started working on a JavaScript file for our website applying variables, flows, loops, iterations and functions to name
 a few. The changes stated above can be found on the following Github page:
 https://sebastiansilveira.github.io/BaSP-B2022-Etapa-1/Semana-05/
+
+#### Week 06:
+Started adding JavaScript validations for the login and sign up layouts of our website.

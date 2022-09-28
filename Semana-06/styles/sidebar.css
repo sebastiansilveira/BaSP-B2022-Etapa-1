@@ -23,7 +23,6 @@ a {
         display: flex;
         flex-direction: column;
         background-color: #707070;
-        height: 100%;
         width: 20%;
         padding: 2%;
     }

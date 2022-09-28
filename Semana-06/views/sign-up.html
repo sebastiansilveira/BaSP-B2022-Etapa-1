@@ -18,32 +18,35 @@
         <h1>Trackgenix</h1>
     </header>
     <main>
-        <div class="container-signup">
-            <img src="../assets/signup/Signup.jpg" class="signup-img" alt="Sign-up">
-        </div>
-        <div class="container-signup-form">
-            <h2>Sign Up</h2>
-            <p class="p-1">Already have an account?<span> Sign in</span></p>
-            <form id="form">
-                <input type="text" id="firstName" placeholder="First name">
-                <input type="text" id="lastName" placeholder="Last name">
-                <input type="number" id="id" placeholder="ID">
-                <input type="date" id="dateOfBirth" placeholder="Date of birth">
-                <input type="number" id="phoneNumber" placeholder="Phone number">
-                <input type="text" id="address" placeholder="Address">
-                <input type="text" id="location" placeholder="Location">
-                <input type="number" id="zipCode" placeholder="Zip code" >
-                <input type="text" id="email" placeholder="Email">
-                <input type="password" id="password" placeholder="Password">
-                <input type="password" id="retypePassword" placeholder="Retype password">
-                <input type="checkbox" class="checkbox-input-signup-1" value="conditions" id="conditions">
-                <label for="conditions" class="checkbox-label-signup-1">I agree to the terms and conditions</label>
-                <button type="submit" id="create" class="signup-button">Create</button>
-            </form>
-        </div>
-        <div class="container-main-page">
-            <img src="../assets/signup/MainPage-Arrow.jpg" alt="Arrow">
-            <p>Back to Main Page</p>
+        <div class="container">
+            <div class="container-img">
+                <img src="../assets/signup/Signup.jpg" class="signup-img" alt="Sign-up">
+            </div>
+            <div class="container-form">
+                <h2>Sign Up</h2>
+                <a class="p-1" href="../views/login.html">Already have an account?<span> Sign in</span></a>
+                <form id="form">
+                    <input type="text" id="firstName" placeholder="First name">
+                    <input type="text" id="lastName" placeholder="Last name">
+                    <input type="number" id="id" placeholder="ID">
+                    <input type="date" id="dateOfBirth" placeholder="Date of birth">
+                    <input type="number" id="phoneNumber" placeholder="Phone number">
+                    <input type="text" id="address" placeholder="Address">
+                    <input type="text" id="location" placeholder="Location">
+                    <input type="number" id="zipCode" placeholder="Zip code" >
+                    <input type="text" id="email" placeholder="Email">
+                    <input type="password" id="password" placeholder="Password">
+                    <input type="password" id="retypePassword" placeholder="Retype password">
+                    <input type="checkbox" class="checkbox-input-signup-1" value="conditions" id="conditions">
+                    <label for="conditions" class="checkbox-label-signup-1">I agree to the terms and conditions</label>
+                    <button type="submit" id="create" class="signup-button">Create</button>
+                </form>
+                <div class="container-home">
+                    <a href="../views/index.html"><img src="../assets/login/MainPage-Arrow.jpg" class="arrow"
+                        alt="Arrow"></a>
+                    <p class="p-3">Back to Main Page</p>
+                </div>
+            </div>
         </div>
     </main>
 </body>
